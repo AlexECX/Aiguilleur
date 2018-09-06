@@ -1,0 +1,5 @@
+Dear FTP 
+it is just a file test to evaluate the FTP client and FTP Server
+
+regards,
+H.
