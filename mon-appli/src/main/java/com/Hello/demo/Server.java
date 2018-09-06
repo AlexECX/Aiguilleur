@@ -14,7 +14,6 @@ public class Server {
         my_socket = new ServerSocket(port);
         System.out.println("server is running");
         my_socket.accept();
-        my_socket.
        
     }
     public static void main(String [] args) {
