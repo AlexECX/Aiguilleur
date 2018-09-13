@@ -16,13 +16,6 @@ public class Server {
         my_socket.accept();
        
     }
-    public static void main(String [] args) {
-        try {
-            Server server = new Server(8008);
-        } catch (IOException e) {
-            System.out.println(e);
-        }
-        System.out.println("end server");
-    }
+    
 
 }
