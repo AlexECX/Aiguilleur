@@ -9,7 +9,7 @@
             "name": "Debug (Launch)",
             "request": "launch",
             "cwd": "${workspaceFolder}",
-            "console": "integratedTerminal",
+            "console": "internalConsole",
             "stopOnEntry": false,
             "mainClass": "",
             "args": ""
@@ -19,22 +19,11 @@
             "name": "Debug (Launch)-Client<pokemon_go_client>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
-            "console": "integratedTerminal",
+            "console": "internalConsole",
             "stopOnEntry": false,
             "mainClass": "com.pokemon_inc.pokemon_go_client.Client",
             "args": "",
             "projectName": "pokemon_go_client"
-        },
-        {
-            "type": "java",
-            "name": "Debug (Launch)-Server<pokemon_go_server>",
-            "request": "launch",
-            "cwd": "${workspaceFolder}",
-            "console": "integratedTerminal",
-            "stopOnEntry": false,
-            "mainClass": "com.pokemon_inc.pokemon_go_server.Server",
-            "args": "",
-            "projectName": "pokemon_go_server"
         },
         {
             "type": "java",
