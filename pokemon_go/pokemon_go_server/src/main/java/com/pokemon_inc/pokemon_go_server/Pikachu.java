@@ -19,9 +19,11 @@ public class Pikachu extends UnicastRemoteObject implements Pokemon {
     }
 
     public void clean() throws RemoteException {
-        while (true) {
-            int x = 2 * 2;
-        }
+        System.out.println("clean Pikachu");
+        System.out.println("clean Pikachu");
+        System.out.println("clean Pikachu");
+        System.out.println("clean Pikachu");
+        System.out.println("clean Pikachu");
     }
 
     public void drink() throws RemoteException {

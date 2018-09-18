@@ -18,5 +18,6 @@
   <modules>
     <module>pokemon_go_client</module>
     <module>pokemon_go_server</module>
+    <module>alexmod</module>
   </modules>
 </project>
