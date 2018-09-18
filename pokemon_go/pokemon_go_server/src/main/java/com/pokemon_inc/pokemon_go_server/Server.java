@@ -11,7 +11,7 @@ public class Server {
 
     public static void main(String[] args) {
         try {
-           
+            //System.setSecurityManager(new RMISecurityManager()); depreciated?
             LocateRegistry.createRegistry(11111);
             Pikachu pika = new Pikachu();
             System.out.println("created pika");
