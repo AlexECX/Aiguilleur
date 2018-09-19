@@ -6,6 +6,28 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - UserClient",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "com.alexecx.dist_calc_client.UserClient",
+            "args": "",
+            "projectName": "dist_calc_client"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CalcServer",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "com.alexecx.dist_calculator.CalcServer",
+            "args": "",
+            "projectName": "dist_calculator"
+        },
+        {
+            "type": "java",
             "name": "Debug (Launch)",
             "request": "launch",
             "cwd": "${workspaceFolder}",
@@ -23,7 +45,7 @@
             "stopOnEntry": false,
             "mainClass": "com.pokemon_inc.pokemon_go_client.Client",
             "args": "",
-            "projectName": "pokemon_go_client",
+            "projectName": "pokemon_go_client"
         },
         {
             "type": "java",

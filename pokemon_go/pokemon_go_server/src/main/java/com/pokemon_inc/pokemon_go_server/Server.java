@@ -12,11 +12,11 @@ public class Server {
     public static void main(String[] args) {
         try {
             //System.setSecurityManager(new RMISecurityManager()); depreciated?
-            LocateRegistry.createRegistry(11111);
+            LocateRegistry.createRegistry(8009);
             Pikachu pika = new Pikachu();
             System.out.println("created pika");
             try {
-                Naming.rebind("//localhost:11111/Pokemon_Naming", pika);
+                Naming.rebind("//localhost:8009/Pokemon_Naming", pika);
             } catch (MalformedURLException e) {
                 System.out.println("malformed");
                 System.out.println(e);
@@ -28,6 +28,6 @@ public class Server {
             System.out.println("remote");
             System.out.println(e);
         }
-        
+        System.out.println("end");
     }
 }

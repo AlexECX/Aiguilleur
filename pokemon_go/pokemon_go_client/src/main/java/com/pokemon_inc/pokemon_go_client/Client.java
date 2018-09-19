@@ -11,7 +11,7 @@ public class Client {
     public static void main(String[] args) {
         try {
 
-            Pokemon pika = (Pokemon)Naming.lookup("//localhost:11111/Pokemon_Naming");
+            Pokemon pika = (Pokemon)Naming.lookup("//localhost:8009/Pokemon_Naming");
             pika.clean();
             pika.drink();
             String test = pika.feed();
